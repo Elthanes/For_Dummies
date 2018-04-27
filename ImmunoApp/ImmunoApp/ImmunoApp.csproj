@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="2.5.1.444934" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\Logo.jpg" />
+    <None Remove="Images\taking.png" />
+    <None Remove="Images\todo.png" />
+    <None Remove="Images\date.png" />
+    <None Remove="Images\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Logo.jpg" />
+    <EmbeddedResource Include="Images\taking.png">
+      <IncludeInPackage>true</IncludeInPackage>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\todo.png">
+      <IncludeInPackage>true</IncludeInPackage>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\date.png">
+      <IncludeInPackage>true</IncludeInPackage>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\contact.png">
+      <IncludeInPackage>true</IncludeInPackage>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Documentation.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Home.xaml">
+      <IncludeInPackage>true</IncludeInPackage>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Images\todo.png">
+      <IncludeInPackage>true</IncludeInPackage>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/bin/Debug/netstandard2.0/ImmunoApp.deps.json
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/bin/Debug/netstandard2.0/ImmunoApp.dll
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/bin/Debug/netstandard2.0/ImmunoApp.pdb
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.csprojResolveAssemblyReference.cache
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.csproj.CoreCompileInputs.cache
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.App.xaml.g.cs
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.MainPage.xaml.g.cs
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.AssemblyInfoInputs.cache
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.AssemblyInfo.cs
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.dll
+/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.pdb
