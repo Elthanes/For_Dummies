@@ -10,6 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="MyPage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
@@ -18,6 +21,18 @@
     </Compile>
     <Compile Update="TabbedMenu.xaml.cs">
       <DependentUpon>TabbedMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Termin.xaml.cs">
+      <DependentUpon>Termin.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ToDo.xaml.cs">
+      <DependentUpon>ToDo.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UserPage.xaml.cs">
+      <DependentUpon>UserPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -29,6 +44,9 @@
     <None Remove="Images\todo.png" />
     <None Remove="Images\date.png" />
     <None Remove="Images\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MyPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\Logo.jpg" />
