@@ -798,11 +798,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp.Android/ImmunoApp.Android.csproj",
+      "projectUniqueName": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp.Android/ImmunoApp.Android.csproj",
       "projectName": "ImmunoApp.Android",
-      "projectPath": "/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp.Android/ImmunoApp.Android.csproj",
+      "projectPath": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp.Android/ImmunoApp.Android.csproj",
       "packagesPath": "/Users/christiangiesser/.nuget/packages/",
-      "outputPath": "/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp.Android/obj",
+      "outputPath": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/christiangiesser/.config/NuGet/NuGet.Config"
@@ -816,8 +816,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/ImmunoApp.csproj": {
-              "projectPath": "/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/ImmunoApp.csproj"
+            "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/ImmunoApp.csproj": {
+              "projectPath": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/ImmunoApp.csproj"
             }
           }
         }

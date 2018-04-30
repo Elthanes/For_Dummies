@@ -383,11 +383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/ImmunoApp.csproj",
+      "projectUniqueName": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/ImmunoApp.csproj",
       "projectName": "ImmunoApp",
-      "projectPath": "/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/ImmunoApp.csproj",
+      "projectPath": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/ImmunoApp.csproj",
       "packagesPath": "/Users/christiangiesser/.nuget/packages/",
-      "outputPath": "/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj",
+      "outputPath": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

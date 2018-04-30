@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Editiermenue Profil - Christian Giesser-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ImmunoApp.UserPage">
+
+        <!-- Content-->
+    <ContentPage.Content>
+        
+    </ContentPage.Content>
+</ContentPage>

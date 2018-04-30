@@ -11,8 +11,8 @@
 namespace ImmunoApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp" +
-        "/MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdatei" +
+        "en/GitHub/immuno/ImmunoApp/ImmunoApp/MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

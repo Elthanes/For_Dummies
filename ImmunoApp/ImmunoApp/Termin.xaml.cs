@@ -5,12 +5,11 @@ using Xamarin.Forms;
 
 namespace ImmunoApp
 {
-    public partial class Home : ContentPage
+    public partial class Termin : ContentPage
     {
-        public Home()
+        public Termin()
         {
             InitializeComponent();
-
         }
     }
 }

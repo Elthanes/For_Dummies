@@ -9,3 +9,20 @@
 /Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.AssemblyInfo.cs
 /Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.dll
 /Users/christiangiesser/root/branches/ImmunoApp_Xamarin.Forms/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.pdb
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/bin/Debug/netstandard2.0/ImmunoApp.deps.json
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/bin/Debug/netstandard2.0/ImmunoApp.dll
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/bin/Debug/netstandard2.0/ImmunoApp.pdb
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.csproj.CoreCompileInputs.cache
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.App.xaml.g.cs
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.Documentation.xaml.g.cs
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.Home.xaml.g.cs
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.MainPage.xaml.g.cs
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.Settings.xaml.g.cs
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.Taking.xaml.g.cs
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.Termin.xaml.g.cs
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.ToDo.xaml.g.cs
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.UserPage.xaml.g.cs
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.AssemblyInfoInputs.cache
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.AssemblyInfo.cs
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.dll
+/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj/Debug/netstandard2.0/ImmunoApp.pdb
