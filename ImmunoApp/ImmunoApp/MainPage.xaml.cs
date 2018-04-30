@@ -13,6 +13,7 @@ namespace ImmunoApp
 		{ 
 			InitializeComponent();
             image.Source = ImageSource.FromResource("ImmunoApp.Images.Logo.jpg");
+
             image.GestureRecognizers.Add(new TapGestureRecognizer());
 		}
 
@@ -20,7 +21,7 @@ namespace ImmunoApp
         //Login
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new Home());
+            Navigation.PushAsync(new TabbedMenu());
         }
         //Passwort vergessen
         void Handle_Clicked_1(object sender, System.EventArgs e)

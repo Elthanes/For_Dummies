@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.1.444934" />
+    <PackageReference Include="Naxam.BottomTabbedPage" Version="0.2.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.427558-pre4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,8 +16,8 @@
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Home.xaml.cs">
-      <DependentUpon>Home.xaml</DependentUpon>
+    <Compile Update="TabbedMenu.xaml.cs">
+      <DependentUpon>TabbedMenu.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -48,7 +49,10 @@
     <EmbeddedResource Update="Documentation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Home.xaml">
+    <EmbeddedResource Update="newsFeed.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TabbedMenu.xaml">
       <IncludeInPackage>true</IncludeInPackage>
     </EmbeddedResource>
   </ItemGroup>

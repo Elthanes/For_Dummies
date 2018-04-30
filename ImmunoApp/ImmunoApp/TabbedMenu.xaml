@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<naxam:BottomTabbedPage
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ImmunoApp"
+    xmlns:naxam="clr-namespace:Naxam.Controls.Forms;assembly=Naxam.Controls.Forms"
+    x:Class="ImmunoApp.TabbedMenu">
+
+    <local:newsFeed></local:newsFeed>
+    <local:Taking></local:Taking>
+    <local:Documentation></local:Documentation>
+
+
+<!-- 
+    <ContentPage Title="Page 1" Icon="">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Welcome to the ImmunoApp Page 1!" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="Page 2" Icon="">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Welcome to the ImmunoApp Page 2!" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage.Content>
+
+    <StackLayout Orientation="Vertical">
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+-->
+        <!-- Button Pictures -->
+<!--         <Button x:Name="taking" />
+        <Button Text="Termin" />
+        <Button Text="Kontakt" />
+        <Button Text="To-Do" />
+                
+     </StackLayout>
+            <Label Text="Platzhalter Newsfeed"/>
+            <Editor MinimumHeightRequest="500" BackgroundColor="Silver" VerticalOptions="FillAndExpand"/>
+            <Label Text="Platzhalter Newsfeed" />
+        </StackLayout>
+    </ContentPage.Content>
+    -->
+</naxam:BottomTabbedPage>
