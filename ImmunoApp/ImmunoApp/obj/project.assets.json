@@ -367,30 +367,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\root\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/christiangiesser/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\root\\Source\\Repos\\immuno\\ImmunoApp\\ImmunoApp\\ImmunoApp.csproj",
+      "projectUniqueName": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/ImmunoApp.csproj",
       "projectName": "ImmunoApp",
-      "projectPath": "C:\\Users\\root\\Source\\Repos\\immuno\\ImmunoApp\\ImmunoApp\\ImmunoApp.csproj",
-      "packagesPath": "C:\\Users\\root\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\root\\Source\\Repos\\immuno\\ImmunoApp\\ImmunoApp\\obj\\",
+      "projectPath": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/ImmunoApp.csproj",
+      "packagesPath": "/Users/christiangiesser/.nuget/packages/",
+      "outputPath": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\root\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/christiangiesser/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -410,16 +408,16 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "2.0.1",
             "autoReferenced": true
           },
           "Naxam.BottomTabbedPage": {
             "target": "Package",
-            "version": "[0.2.0.2, )"
+            "version": "0.2.0.2"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.0.0.427558-pre4, )"
+            "version": "3.0.0.427558-pre4"
           }
         },
         "imports": [

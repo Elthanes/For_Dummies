@@ -2,10 +2,42 @@
 <!-- Editiermenue Profil - Christian Giesser-->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="ImmunoApp.UserPage">
+             x:Class="ImmunoApp.UserPage"
+             Padding ="0,20,0,0">
+    
+            <!-- Content-->
+<TableView Intent="Form">
+    <TableRoot>
 
-        <!-- Content-->
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
-</ContentPage>
+            <!-- Persönliche Angaben -->
+        <TableSection Title="Persönliche Angaben">
+            <EntryCell Label="Name" Placeholder="Vor-, Nachname"/>
+            <EntryCell Label="Adresse" Placeholder="Straße, Hausnummer"/> 
+            <EntryCell Label="Adresszusatz" Placeholder="(Optional)"/>
+            <EntryCell Label="Wohnort, Postleitzahl" Placeholder="Ort, PLZ"/>
+            <EntryCell Label="Geburtstag" Keyboard="Numeric" Placeholder="TAG"/>
+        </TableSection>
+
+            <!-- Medizinische Angaben -->
+        <TableSection Title="Medizinische Angaben">
+            <EntryCell Label="Hausarzt" Placeholder="Hausarzt"/>
+            <EntryCell Label="Immunologe" Placeholder="Immunologe"/>
+            <EntryCell Label="Notfallkontakt" Placeholder="Notfallkontakt"/>
+              
+                
+        </TableSection>
+            
+    </TableRoot>
+</TableView>
+    </ContentPage>
+
+
+
+   <!-- Hints:
+   <TableSection Title="">
+    </TableSection>
+
+   <EntryCell Label="" Placeholder=""/> 
+
+
+    -->

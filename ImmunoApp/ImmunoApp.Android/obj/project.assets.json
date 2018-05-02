@@ -808,34 +808,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\root\\.nuget\\packages\\": {}
+    "/Users/christiangiesser/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\root\\Source\\Repos\\immuno\\ImmunoApp\\ImmunoApp.Android\\ImmunoApp.Android.csproj",
+      "projectUniqueName": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp.Android/ImmunoApp.Android.csproj",
       "projectName": "ImmunoApp.Android",
-      "projectPath": "C:\\Users\\root\\Source\\Repos\\immuno\\ImmunoApp\\ImmunoApp.Android\\ImmunoApp.Android.csproj",
-      "packagesPath": "C:\\Users\\root\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\root\\Source\\Repos\\immuno\\ImmunoApp\\ImmunoApp.Android\\obj\\",
+      "projectPath": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp.Android/ImmunoApp.Android.csproj",
+      "packagesPath": "/Users/christiangiesser/.nuget/packages/",
+      "outputPath": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp.Android/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\root\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/christiangiesser/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\root\\Source\\Repos\\immuno\\ImmunoApp\\ImmunoApp\\ImmunoApp.csproj": {
-              "projectPath": "C:\\Users\\root\\Source\\Repos\\immuno\\ImmunoApp\\ImmunoApp\\ImmunoApp.csproj"
+            "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/ImmunoApp.csproj": {
+              "projectPath": "/Users/christiangiesser/Library/Mobile Documents/com~apple~CloudDocs/Projektdateien/GitHub/immuno/ImmunoApp/ImmunoApp/ImmunoApp.csproj"
             }
           }
         }
@@ -846,31 +843,31 @@
         "dependencies": {
           "Naxam.BottomTabbedPage": {
             "target": "Package",
-            "version": "[0.2.0.2, )"
-          },
-          "Xamarin.Android.Support.Design": {
-            "target": "Package",
-            "version": "[27.0.2, )"
-          },
-          "Xamarin.Android.Support.v4": {
-            "target": "Package",
-            "version": "[27.0.2, )"
-          },
-          "Xamarin.Android.Support.v7.AppCompat": {
-            "target": "Package",
-            "version": "[27.0.2, )"
-          },
-          "Xamarin.Android.Support.v7.CardView": {
-            "target": "Package",
-            "version": "[27.0.2, )"
-          },
-          "Xamarin.Android.Support.v7.MediaRouter": {
-            "target": "Package",
-            "version": "[27.0.2, )"
+            "version": "0.2.0.2"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.0.0.427558-pre4, )"
+            "version": "3.0.0.427558-pre4"
+          },
+          "Xamarin.Android.Support.Design": {
+            "target": "Package",
+            "version": "27.0.2"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "27.0.2"
+          },
+          "Xamarin.Android.Support.v4": {
+            "target": "Package",
+            "version": "27.0.2"
+          },
+          "Xamarin.Android.Support.v7.CardView": {
+            "target": "Package",
+            "version": "27.0.2"
+          },
+          "Xamarin.Android.Support.v7.MediaRouter": {
+            "target": "Package",
+            "version": "27.0.2"
           }
         }
       }
