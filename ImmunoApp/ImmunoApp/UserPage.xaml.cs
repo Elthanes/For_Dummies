@@ -11,5 +11,10 @@ namespace ImmunoApp
         {
             InitializeComponent();
         }
+        // Datum Augewählt Handle Geburtstag
+        void Handle_DateSelected(object sender, Xamarin.Forms.DateChangedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

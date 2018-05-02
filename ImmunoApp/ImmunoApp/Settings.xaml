@@ -2,10 +2,28 @@
 <!-- Edditiermenue Einstellungen - Christian Gießer-->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="ImmunoApp.Settings">
+             x:Class="ImmunoApp.Settings"
+             Title="Einstellungen">
 
     <!-- Content-->
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
+    <!-- TabellenLayout (einfach erweiterbar, siehe auch UserPage) -->
+   <TableView Intent="Settings">
+    <TableRoot>
+            
+            <!-- Privatsphäre -->
+       <TableSection Title="Einstellungen zur Privatsphäre">
+              <SwitchCell Text="Neuigkeiten" On="true"/>
+              <SwitchCell Text="wöchentliche Fragebögen" On=" true"/>
+               <SwitchCell Text="monatliche Fragebögen" On=" true"/>
+              <SwitchCell Text="Automatische Synchronisation" On="false"/>                
+       </TableSection>
+
+            <!-- Erweiterte Einstellungen -->
+       <TableSection Title="Erweiterte Einstellungen">
+               <SwitchCell Text="Kindermodus" On=" false"/>
+
+       </TableSection>
+            
+     </TableRoot>
+    </TableView>
 </ContentPage>
