@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Untermenue Termin - Anh -->
+<!-- Untermenue Termin - Christian Giesser -->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="ImmunoApp.Termin">
+             xmlns:sys = "clr-namespace:System;assembly=mscorlib"
+             x:Class="ImmunoApp.Termin"
+             Padding="0,20,0,0">
     
         <!-- Content-->
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
+     <TableView Intent="Settings">
+           <TableRoot>
+            <TableSection Title="Terminanfrage" >
+                
+                   <!--  Date Picker, Date Selected -->
+                           <ViewCell Height="100">
+                             <DatePicker 
+                             Date="{x:Static sys:DateTime.Today}" 
+                             Format="dd MMM yyyy" 
+                             MinimumDate="1 Jan 2018"
+
+                             DateSelected="Handle_DateSelected" 
+                             HorizontalOptions="CenterAndExpand"
+             
+                    VerticalOptions="CenterAndExpand"/>
+                           </ViewCell>
+
+                <!-- Buttons für Zeitlich -->
+                 </TableSection>
+                 <TableSection Title="Zeitlich" >
+                        <SwitchCell Text="Vormittags" On="false"/>
+                            <SwitchCell Text="Nachmittags" On="false"/>
+
+            </TableSection>
+            <TableSection Title="Bemerkung">
+                <EntryCell Placeholder="Bemerkung (optional)" Height="400" HorizontalTextAlignment="Start"/>
+                <ViewCell>
+                <Button Text="Anfrage senden" HorizontalOptions="Center" VerticalOptions="Center"/>
+                  </ViewCell>
+            </TableSection>
+          
+           </TableRoot>
+    </TableView>
 </ContentPage>
