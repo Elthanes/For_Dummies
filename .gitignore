@@ -327,3 +327,9 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+ImmunoApp/ImmunoApp/bin/Debug/netstandard2\.0/ImmunoApp\.dll
+
+ImmunoApp/ImmunoApp/obj/Debug/netstandard2\.0/ImmunoApp\.csproj\.CoreCompileInputs\.cache
+
+ImmunoApp/ImmunoApp/obj/Debug/netstandard2\.0/ImmunoApp\.dll
