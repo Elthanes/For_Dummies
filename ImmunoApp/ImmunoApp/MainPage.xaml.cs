@@ -23,7 +23,7 @@ namespace ImmunoApp
         {
 
             // TEST!!!
-            Navigation.PushAsync(new Home());
+            Navigation.PushAsync(new TabbedMenu());
         }
         //Passwort vergessen
         void Handle_Clicked_1(object sender, System.EventArgs e)
