@@ -40,6 +40,9 @@
     <Compile Update="Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
+    <Compile Update="PasswortVergessen.xaml.cs">
+      <DependentUpon>PasswortVergessen.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />

@@ -5,14 +5,15 @@ using Xamarin.Forms;
 
 namespace ImmunoApp
 {
-    public partial class UserPage : ContentPage
+    public partial class PasswortVergessen : ContentPage
     {
-        public UserPage()
+        public PasswortVergessen()
         {
             InitializeComponent();
         }
-        // Datum Augewählt Handle Geburtstag
-        void Handle_DateSelected(object sender, Xamarin.Forms.DateChangedEventArgs e)
+
+        //Absenden
+        void Handle_Pressed(object sender, System.EventArgs e)
         {
             throw new NotImplementedException();
         }

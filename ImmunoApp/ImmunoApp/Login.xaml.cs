@@ -28,7 +28,7 @@ namespace ImmunoApp
         //Passwort vergessen
         void Handle_Clicked_1(object sender, System.EventArgs e)
         {
-            throw new NotImplementedException();
+            Navigation.PushAsync(new PasswortVergessen());
         }
     }
 }

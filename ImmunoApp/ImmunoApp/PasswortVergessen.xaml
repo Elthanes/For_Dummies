@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Passwort Vergessen - Christian Giesser -->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ImmunoApp.PasswortVergessen"
+             Title="Passwort Vergessen"
+             >
+
+                <!-- Content-->
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" >
+
+            <!-- Elemente -->
+        <Label Text="Email-Adresse eingeben"/>
+        <Entry Placeholder="Email-Adresse" HorizontalTextAlignment="Center"/>
+        <Button Text="Absenden" Pressed="Handle_Pressed"/>
+             
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

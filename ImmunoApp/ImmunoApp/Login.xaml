@@ -10,11 +10,15 @@
     Padding ="0,20,0,0">
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
         <Image x:Name = "image"/>
-        <Label Text="Benutzername" />
-        <Entry Placeholder="E-Mail Adresse" />
-        <Label Text="Passwort" />
-        <Entry Placeholder="Passwort" IsPassword="true" />
-        <Button Text="Login" Clicked="Handle_Clicked" />
+
+        <!-- Authentifizierung Felder-->
+        <Label Text="Benutzername" HorizontalOptions="Center"/>
+        <Entry Placeholder="E-Mail Adresse" HorizontalTextAlignment="Center"/>
+        <Label Text="Passwort" HorizontalOptions="Center"/>
+        <Entry Placeholder="Passwort" IsPassword="true"  HorizontalTextAlignment="Center"/>
+
+        <!-- Buttons -->
+        <Button Text="Login" Clicked="Handle_Clicked" FontSize="20"/>
         <Button Text="Passwort vergessen" Clicked="Handle_Clicked_1"/>
     </StackLayout>
 </ContentPage>

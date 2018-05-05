@@ -4,7 +4,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="ImmunoApp.Home"
              NavigationPage.HasBackButton="false"
-             Padding=" 0,20,0,0"
              >
 
         <!-- Content-->

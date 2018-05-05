@@ -11,5 +11,12 @@ namespace ImmunoApp
         {
             InitializeComponent();
         }
+
+
+        //Date Selected
+        void Handle_DateSelected(object sender, Xamarin.Forms.DateChangedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
