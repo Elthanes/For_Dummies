@@ -1,20 +1,21 @@
 ﻿using Naxam.Controls.Forms;
-using System;
-using System.Collections.Generic;
-
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace ImmunoApp
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    /// <summary>
+    /// TabbedMenu tab structure menu on the bottom
+    /// Author: Christian Bender
+    /// </summary>
     public partial class TabbedMenu : BottomTabbedPage
     {
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public TabbedMenu()
         {
             InitializeComponent();
 
-            //taking.Source = ImageSource.FromResource("ImmunoApp.Images.taking.png");
+            
 
         }
     }

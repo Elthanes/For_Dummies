@@ -7,13 +7,12 @@ using Xamarin.Forms;
 
 namespace ImmunoApp
 {
-	public partial class MainPage : ContentPage
+	public partial class Login : ContentPage
     {
-		public MainPage()
+		public Login()
 		{ 
 			InitializeComponent();
             image.Source = ImageSource.FromResource("ImmunoApp.Images.Logo.jpg");
-
             image.GestureRecognizers.Add(new TapGestureRecognizer());
 		}
 
@@ -21,7 +20,10 @@ namespace ImmunoApp
         //Login
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new TabbedMenu());
+            Application.Current.MainPage = new MainContainer();
+            
+
+
         }
         //Passwort vergessen
         void Handle_Clicked_1(object sender, System.EventArgs e)

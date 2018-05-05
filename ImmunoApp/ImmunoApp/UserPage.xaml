@@ -2,10 +2,10 @@
 <!-- Editiermenue Profil - Christian Giesser-->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="ImmunoApp.UserPage">
-
-        <!-- Content-->
+             x:Class="ImmunoApp.UserPage"
+             Title="Profileinstellungen">
+    <!-- Content-->
     <ContentPage.Content>
-        
+        <Label Text="Profileinstellungen hier" HorizontalOptions = "LayoutOptions.Center" VerticalOptions = "CenterAndExpand"></Label>
     </ContentPage.Content>
 </ContentPage>

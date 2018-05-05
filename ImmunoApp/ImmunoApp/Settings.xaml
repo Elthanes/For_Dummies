@@ -2,10 +2,16 @@
 <!-- Edditiermenue Einstellungen - Christian Gießer-->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="ImmunoApp.Settings">
-
+             x:Class="ImmunoApp.Settings"
+             Title="Konfiguration">
     <!-- Content-->
     <ContentPage.Content>
-        
+        <StackLayout>
+            <Label Text = "Konfigurationselemente hier" HorizontalOptions = "LayoutOptions.Center" VerticalOptions = "CenterAndExpand"></Label>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+
+
+
+
