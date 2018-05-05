@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace ImmunoApp
@@ -18,7 +14,7 @@ namespace ImmunoApp
 
       
         //Login
-        void Handle_Clicked(object sender, System.EventArgs e)
+        void Handle_Clicked(object sender, EventArgs e)
         {
             Application.Current.MainPage = new MainContainer();
             
@@ -26,7 +22,7 @@ namespace ImmunoApp
 
         }
         //Passwort vergessen
-        void Handle_Clicked_1(object sender, System.EventArgs e)
+        void Handle_Clicked_1(object sender, EventArgs e)
         {
             Navigation.PushAsync(new PasswortVergessen());
         }
