@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--Login Screen - Christian Giesser -->
 <!-- Edited by Christian Bender-->
+
 <ContentPage
     Title="Login"
     xmlns="http://xamarin.com/schemas/2014/forms"
@@ -8,6 +9,8 @@
     xmlns:local="clr-namespace:ImmunoApp"
     x:Class="ImmunoApp.Login"
     Padding ="0,20,0,0">
+
+    <!-- Contentn -->
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
         <Image x:Name = "image"/>
 
@@ -20,5 +23,6 @@
         <!-- Buttons -->
         <Button Text="Login" Clicked="Handle_Clicked" FontSize="20"/>
         <Button Text="Passwort vergessen" Clicked="Handle_Clicked_1"/>
+        
     </StackLayout>
 </ContentPage>

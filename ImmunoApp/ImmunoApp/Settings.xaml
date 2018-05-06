@@ -4,8 +4,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="ImmunoApp.Settings"
              Title="Konfiguration">
+    
     <!-- Content-->
-    <!-- TabellenLayout (einfach erweiterbar, siehe auch UserPage) -->
+    <!-- TabellenLayout -->
    <TableView Intent="Settings">
     <TableRoot>
             
