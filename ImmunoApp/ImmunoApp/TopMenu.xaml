@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!--MenuItems: represents the menu structure on the top - Christian Bender-->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -6,13 +6,20 @@
              x:Class="ImmunoApp.TopMenu"
              Padding="0,40,0,0"
 			 Icon="hamburger.png">
+    
     <StackLayout>
         <ListView x:Name="listView">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
-                    <local:MasterPageItem Title="Einstellungen" IconSource="ic_settings.png" TargetType="{x:Type local:Settings}" />
-                    <local:MasterPageItem Title="Profil" IconSource="ic_account_circle.png" TargetType="{x:Type local:UserPage}" />
-                    <local:MasterPageItem Title="Über" IconSource="ic_info.png" TargetType="{x:Type local:About}" />
+                    <local:MasterPageItem Title="Einstellungen" 
+                                          IconSource="ic_settings.png" 
+                                          TargetType="{x:Type local:Settings}" />
+                    <local:MasterPageItem Title="Profil" 
+                                          IconSource="ic_account_circle.png" 
+                                          TargetType="{x:Type local:UserPage}" />
+                    <local:MasterPageItem Title="Über" 
+                                          IconSource="ic_info.png" 
+                                          TargetType="{x:Type local:About}" />
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>

@@ -24,6 +24,7 @@
             <Label Text="Platzhalter Newsfeed"/>
             <Editor MinimumHeightRequest="500" BackgroundColor="Silver" VerticalOptions="FillAndExpand"/>
             <Label Text="Platzhalter Newsfeed" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

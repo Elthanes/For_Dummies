@@ -30,13 +30,15 @@
                  <TableSection Title="Zeitlich" >
                         <SwitchCell Text="Vormittags" On="false"/>
                             <SwitchCell Text="Nachmittags" On="false"/>
-
             </TableSection>
+            
             <TableSection Title="Bemerkung">
-                <EntryCell Placeholder="Bemerkung (optional)" Height="400" HorizontalTextAlignment="Start"/>
+                <EntryCell Placeholder="Bemerkung (optional)" HorizontalTextAlignment="Start"/>
+                
                 <ViewCell>
-                <Button Text="Anfrage senden" HorizontalOptions="Center" VerticalOptions="Center"/>
-                  </ViewCell>
+                <Button Text="Anfrage senden" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"/>
+                </ViewCell>
+                
             </TableSection>
           
            </TableRoot>

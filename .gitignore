@@ -333,3 +333,11 @@ ImmunoApp/ImmunoApp/bin/Debug/netstandard2\.0/ImmunoApp\.dll
 ImmunoApp/ImmunoApp/obj/Debug/netstandard2\.0/ImmunoApp\.csproj\.CoreCompileInputs\.cache
 
 ImmunoApp/ImmunoApp/obj/Debug/netstandard2\.0/ImmunoApp\.dll
+
+*.cache
+
+*.props
+
+*.json
+
+*.targets
