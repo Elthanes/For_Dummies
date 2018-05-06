@@ -36,9 +36,8 @@
                 <EntryCell Placeholder="Bemerkung (optional)" HorizontalTextAlignment="Start"/>
                 
                 <ViewCell>
-                <Button Text="Anfrage senden" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"/>
-                </ViewCell>
-                
+                <Button Text="Anfrage senden" HorizontalOptions="Center" VerticalOptions="Center"/>
+                  </ViewCell>
             </TableSection>
           
            </TableRoot>
