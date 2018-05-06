@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- TabbedMenu: tab structure menu on the bottom - Christian Bender-->
+
 <naxam:BottomTabbedPage
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -12,6 +13,9 @@
     <local:Taking></local:Taking>
     <local:Documentation></local:Documentation>
     <local:Termin></local:Termin>
-    <local:ToDo></local:ToDo>
+
+
+    <!-- Ich denke TODO brauchen wir erstmal nicht. Vielleicht packen wir das in die Erweiterungsmöglcihkeiten. -->
+    <!--     <local:ToDo></local:ToDo> -->
 
 </naxam:BottomTabbedPage>

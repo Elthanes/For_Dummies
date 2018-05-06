@@ -31,28 +31,29 @@
                          DateSelected="Handle_DateSelected" 
                          HorizontalOptions="EndAndExpand" 
                          />
+                        
                     </StackLayout>
                 </ViewCell>
-                
         </TableSection>
 
             <!-- Medizinische Angaben -->
         <TableSection Title="Medizinische Kontaktpersonen">
                 
-            <EntryCell Label="Hausarzt" Placeholder="Hausarzt" HorizontalTextAlignment="Start"/>
-            <EntryCell Placeholder=" Telefonnummer"/>
+            <EntryCell Label="Hausarzt" Placeholder="Name" HorizontalTextAlignment="Center"/>
+            <EntryCell Label="Tel. " Placeholder=" Telefonnummer" HorizontalTextAlignment="Center"/>>
                     
-            <EntryCell Label="Immunologe" Placeholder="Immunologe" HorizontalTextAlignment="Start"/>
-            <EntryCell Placeholder=" Telefonnummer"/>
+            <EntryCell Label="Immunologe" Placeholder="Name" HorizontalTextAlignment="Center"/>
+            <EntryCell Label="Tel. " Placeholder=" Telefonnummer" HorizontalTextAlignment="Center"/>
                         
-            <EntryCell Label="Notfallkontakt" Placeholder="Notfallkontakt" HorizontalTextAlignment="Start"/>
-            <EntryCell Placeholder=" Telefonnummer"/>
+            <EntryCell Label="Notfallkontakt" Placeholder="Name" HorizontalTextAlignment="Center"/>
+            <EntryCell Label="Tel. " Placeholder=" Telefonnummer" HorizontalTextAlignment="Center"/>
                 
         </TableSection>
-            
     </TableRoot>
 </TableView>
     </ContentPage>
+
+
 
 
 

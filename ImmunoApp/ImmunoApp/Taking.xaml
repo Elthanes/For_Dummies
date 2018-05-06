@@ -6,6 +6,8 @@
              x:Class="ImmunoApp.Taking"
              Title="Einahme"
              Icon="ic_add_box">
+
+    <!-- Content -->
     <ContentPage.Content>
         
      <!-- TabellenLayout -->
@@ -26,9 +28,10 @@
                          DateSelected="Handle_DateSelected" 
                          HorizontalOptions="EndAndExpand"/> 
                             </StackLayout>
-                    </ViewCell>
+                     </ViewCell>
                 </TableSection>
-                
+
+                <!-- Eingabefelder -->
                 <TableSection Title="Name des Medikamments">     
                     <EntryCell Label="Name" Placeholder="Name des Medikamments" HorizontalTextAlignment="Start"/> 
                 </TableSection>
@@ -43,19 +46,17 @@
 
                 <TableSection Title="Wie fühlen Sie sich heute?">
                     <EntryCell Label="Ich fühle mich: " Placeholder="(Optional)" HorizontalTextAlignment="Start"/> 
-                </TableSection>
+                
 
-                <TableSection>
+                <!-- Buttons -->
                     <ViewCell>
                         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                             <Button Text="Speichern" Margin="20,2,20,2" FontSize="20"/>
                             <Button Text="QR-Code" Margin="20,2,20,2" FontSize="20"/>
-                        </StackLayout>
-                 
+                        </StackLayout>     
                     </ViewCell>
-
                     
-                </TableSection>
+                 </TableSection>
                 
             </TableRoot>
         </TableView>
