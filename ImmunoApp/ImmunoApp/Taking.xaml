@@ -23,10 +23,11 @@
                         <DatePicker 
                          Margin="15,2,15,2"
                          Date="{x:Static sys:DateTime.Today}" 
-                         Format="dd MMM yyyy" 
+                         Format="dd MM yyyy" 
                          MinimumDate="1 Jan 2018" 
                          DateSelected="Handle_DateSelected" 
-                         HorizontalOptions="EndAndExpand"/> 
+                         HorizontalOptions="EndAndExpand"
+                         /> 
                             </StackLayout>
                      </ViewCell>
                 </TableSection>
