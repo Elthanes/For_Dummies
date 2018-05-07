@@ -6,8 +6,8 @@
     <!-- Content -->
     <ContentPage.Content>
         
-        <StackLayout>
-            <Label Text="Über die App. Eventuell Disclaimer und technischer Kontakt." 
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="Über die App. Eventuell Disclaimer und technischer Kontakt Verweis auf die Uni Siegen." 
                    VerticalOptions="CenterAndExpand" 
                    HorizontalOptions="CenterAndExpand" />
         </StackLayout>
