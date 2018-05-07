@@ -193,4 +193,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\ic_todo%403x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_menu%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_menu%403x.png" />
+  </ItemGroup>
 </Project>
