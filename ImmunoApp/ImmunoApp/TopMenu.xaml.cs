@@ -61,7 +61,7 @@ namespace ImmunoApp
                 SeparatorVisibility = SeparatorVisibility.Default
             };
 
-            Icon = "hamburger.png";
+            Icon = "ic_menu.png";
             Title = "Personal Organiser";
             Padding = new Thickness(0, 40, 0, 0);
             Content = new StackLayout

@@ -99,7 +99,9 @@
     <BundleResource Include="Resources\Icon-Small-40%403x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
-    <BundleResource Include="Resources\hamburger.png" />
+    <BundleResource Include="Resources\ic_menu.png" />
+    <BundleResource Include="Resources\ic_menu%402x.png" />
+    <BundleResource Include="Resources\ic_menu%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -193,14 +195,5 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\ic_todo%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\ic_menu.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\ic_menu%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\ic_menu%403x.png" />
   </ItemGroup>
 </Project>

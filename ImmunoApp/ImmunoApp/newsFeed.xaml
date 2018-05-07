@@ -9,9 +9,16 @@
     <!-- Content -->
     <ContentPage.Content>
         
-        <StackLayout>
-            <Label Text="Nachrichtenfeed" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
-            
-        </StackLayout>
+        <TableView>
+            <TableRoot> 
+               <TableSection Title="Nachrichtenfeed"> 
+                    <ViewCell>
+                        <Label Text="Nachrichtenfeed" 
+                               VerticalOptions="CenterAndExpand" 
+                               HorizontalOptions="CenterAndExpand"/>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+      </TableView>
     </ContentPage.Content>
 </ContentPage>
