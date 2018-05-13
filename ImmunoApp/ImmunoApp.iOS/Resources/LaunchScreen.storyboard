@@ -27,8 +27,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Icon-60@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="pET-dM-i0i">
-                                <rect key="frame" x="16" y="100" width="343" height="148"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Icon-60@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="pET-dM-i0i">
+                                <rect key="frame" x="44" y="100" width="286" height="148"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -39,6 +39,7 @@
                             <constraint firstItem="9ZL-r4-8FZ" firstAttribute="top" secondItem="zmW-Oa-Owi" secondAttribute="bottom" constant="376" id="SAD-I8-scC"/>
                             <constraint firstItem="pET-dM-i0i" firstAttribute="centerX" secondItem="yd7-JS-zBw" secondAttribute="centerX" id="URo-q6-SQt"/>
                             <constraint firstItem="zmW-Oa-Owi" firstAttribute="top" secondItem="pET-dM-i0i" secondAttribute="bottom" constant="8" id="Y3D-pl-w9q"/>
+                            <constraint firstItem="pET-dM-i0i" firstAttribute="leading" secondItem="yd7-JS-zBw" secondAttribute="leadingMargin" constant="28" id="a6z-p8-zSi"/>
                             <constraint firstItem="zmW-Oa-Owi" firstAttribute="leading" secondItem="yd7-JS-zBw" secondAttribute="leadingMargin" constant="62" id="tq1-lM-IqV"/>
                             <constraint firstItem="pET-dM-i0i" firstAttribute="trailing" secondItem="yd7-JS-zBw" secondAttribute="trailingMargin" id="u2Z-IN-MFG"/>
                             <constraint firstItem="pET-dM-i0i" firstAttribute="top" secondItem="Y8P-hJ-Z43" secondAttribute="bottom" constant="80" id="vqf-VC-m8F"/>

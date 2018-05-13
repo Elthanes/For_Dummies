@@ -16,7 +16,7 @@
         <TableSection Title="Persönliche Angaben">
             <EntryCell Label="Name" Placeholder="Vor-, Nachname" HorizontalTextAlignment="End"/>
             <EntryCell Label="Adresse" Placeholder="Straße, Hausnummer" HorizontalTextAlignment="End"/> 
-            <EntryCell Label="Adresszusatz" Placeholder="(Optional)" HorizontalTextAlignment="End"/>
+
             <EntryCell Label="Wohnort, Postleitzahl" Placeholder="Ort, PLZ" HorizontalTextAlignment="End"/>
                 
                 <!-- Geburtstag Date Picker -->
@@ -40,13 +40,13 @@
         <TableSection Title="Medizinische Kontaktpersonen">
                 
             <EntryCell Label="Hausarzt" Placeholder="Name" HorizontalTextAlignment="Center"/>
-            <EntryCell Label="Tel. " Placeholder=" Telefonnummer" HorizontalTextAlignment="Center"/>>
+            <EntryCell Label="Telefonnummer " Placeholder=" Tel." HorizontalTextAlignment="Center"/>>
                     
             <EntryCell Label="Immunologe" Placeholder="Name" HorizontalTextAlignment="Center"/>
-            <EntryCell Label="Tel. " Placeholder=" Telefonnummer" HorizontalTextAlignment="Center"/>
+            <EntryCell Label="Telefonnummer " Placeholder=" Tel." HorizontalTextAlignment="Center"/>
                         
             <EntryCell Label="Notfallkontakt" Placeholder="Name" HorizontalTextAlignment="Center"/>
-            <EntryCell Label="Tel. " Placeholder=" Telefonnummer" HorizontalTextAlignment="Center"/>
+            <EntryCell Label="Telefonnummer " Placeholder=" Tel." HorizontalTextAlignment="Center"/>
                 
         </TableSection>
     </TableRoot>

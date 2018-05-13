@@ -14,15 +14,17 @@
                 
                    <!--  Date Picker, Date Selected -->
                            <ViewCell Height="100">
+                    <StackLayout Orientation="Horizontal" Padding="15,0,15,0">
+                        <Label Text="Datum " HorizontalOptions="Center" VerticalOptions="Center"/>
                              <DatePicker 
                              Date="{x:Static sys:DateTime.Today}" 
                              Format="dd MMM yyyy" 
                              MinimumDate="1 Jan 2018"
 
                              DateSelected="Handle_DateSelected" 
-                             HorizontalOptions="CenterAndExpand"
-             
-                    VerticalOptions="CenterAndExpand"/>
+                             HorizontalOptions="EndAndExpand"
+                             VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
                            </ViewCell>
 
                 <!-- Buttons für Zeitlich -->

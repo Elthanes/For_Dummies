@@ -38,7 +38,7 @@
                 </TableSection>
 
                 <TableSection Title="Wie lautet die Chagen-Nummer?">
-                <EntryCell Label="Nummer: " Placeholder="#1234" HorizontalTextAlignment="Start"/> 
+                <EntryCell Label="Nummer " Placeholder="#1234" HorizontalTextAlignment="Start"/> 
                 </TableSection>
 
                 <TableSection Title="Wie viel haben Sie davon eingenommen">
@@ -46,7 +46,7 @@
                 </TableSection>
 
                 <TableSection Title="Wie fühlen Sie sich heute?">
-                    <EntryCell Label="Ich fühle mich: " Placeholder="(Optional)" HorizontalTextAlignment="Start"/> 
+                    <EntryCell Label="Ich fühle mich " Placeholder="(Optional)" HorizontalTextAlignment="Start"/> 
                 
 
                 <!-- Buttons -->
