@@ -8,6 +8,7 @@
 			 Icon="ic_menu.png">
     
     <StackLayout>
+        <Image x:Name = "image"/>
         <ListView x:Name="listView">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">

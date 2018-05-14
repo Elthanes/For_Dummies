@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace ImmunoApp
@@ -18,6 +19,24 @@ namespace ImmunoApp
         /// </summary>
         public TopMenu()
         {
+
+
+            /*
+            var settings = new ToolbarItem
+            {
+                Icon = "ic_refresh",
+                Name = "Settings"
+               //Command = new Command(this.pageTo),
+            };
+
+            Console.WriteLine("Adding ic_refresh");
+            this.ToolbarItems.Add(settings);
+            */
+
+
+            //image.Source = ImageSource.FromResource("ImmunoApp.Images.Logo.jpg");
+
+
             var masterPageItems = new List<MasterPageItem>();
             masterPageItems.Add(new MasterPageItem
             {
@@ -70,6 +89,5 @@ namespace ImmunoApp
             };
 
         }
-
     }
 }

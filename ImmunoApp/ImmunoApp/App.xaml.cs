@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace ImmunoApp
 {
@@ -13,7 +14,7 @@ namespace ImmunoApp
         /// </summary>
         public App ()
 		{
-			InitializeComponent();
+            InitializeComponent();
             MainPage = new Login();
 		}
 
@@ -29,7 +30,7 @@ namespace ImmunoApp
 
 		protected override void OnResume ()
 		{
-			// Handle when your app resumes
-		}
+            Console.WriteLine("Xamarin App Resume");
+        }
 	}
 }
