@@ -28,18 +28,18 @@ Once you have edited your function you can use the following command lines to bu
 
 Restore dependencies
 ```
-    cd "executeInputNonQuery"
+    cd "CreateNewUser"
     dotnet restore
 ```
 
 Execute unit tests
 ```
-    cd "executeInputNonQuery/test/executeInputNonQuery.Tests"
+    cd "CreateNewUser/test/CreateNewUser.Tests"
     dotnet test
 ```
 
 Deploy function to AWS Lambda
 ```
-    cd "executeInputNonQuery/src/executeInputNonQuery"
+    cd "CreateNewUser/src/CreateNewUser"
     dotnet lambda deploy-function
 ```
