@@ -13,8 +13,8 @@
     "function-runtime" : "dotnetcore2.0",
     "function-memory-size" : 256,
     "function-timeout"     : 30,
-    "function-handler"     : "CredentialsTest::CredentialsTest.Function::FunctionHandler",
-    "function-name"        : "InvokeTest",
+    "function-handler"     : "TokenDecode::TokenDecode.Function::FunctionHandler",
+    "function-name"        : "TokenDecode",
     "function-role"        : "arn:aws:iam::565162070627:role/lambda_exec_RDSTest",
     "tracing-mode"         : "PassThrough",
     "environment-variables" : ""
