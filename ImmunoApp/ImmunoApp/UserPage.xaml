@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Editiermenue Profil - Christian Giesser-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:sys = "clr-namespace:System;assembly=mscorlib"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ImmunoApp.UserPage"
+             Title="Benutzerprofil"
+             >
+
+            <!-- Content-->
+     <!-- TabellenLayout -->
+<TableView Intent="Form">
+    <TableRoot>
+
+            <!-- Persönliche Angaben -->
+        <TableSection Title="Persönliche Angaben">
+            <EntryCell Label="Name" Placeholder="Vor-, Nachname" HorizontalTextAlignment="End"/>
+            <EntryCell Label="Adresse" Placeholder="Straße, Hausnummer" HorizontalTextAlignment="End"/> 
+
+            <EntryCell Label="Wohnort, Postleitzahl" Placeholder="Ort, PLZ" HorizontalTextAlignment="End"/>
+                
+                <!-- Geburtstag Date Picker -->
+               <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="13,0">
+                        <Label Text="Geburtstag" HorizontalOptions="Center" VerticalOptions="Center"/>
+                        <DatePicker 
+                         Date="{x:Static sys:DateTime.Today}" 
+                         Format="dd MMM yyyy" 
+                         MinimumDate="1 Jan 1900" 
+                         MaximumDate="{x:Static sys:DateTime.Today}" 
+                         DateSelected="Handle_DateSelected" 
+                         HorizontalOptions="EndAndExpand" 
+                         />
+                        
+                    </StackLayout>
+                </ViewCell>
+        </TableSection>
+
+            <!-- Medizinische Angaben -->
+        <TableSection Title="Medizinische Kontaktpersonen">
+                
+            <EntryCell Label="Hausarzt" Placeholder="Name" HorizontalTextAlignment="Center"/>
+            <EntryCell Label="Telefonnummer " Placeholder=" Tel." HorizontalTextAlignment="Center"/>>
+                    
+            <EntryCell Label="Immunologe" Placeholder="Name" HorizontalTextAlignment="Center"/>
+            <EntryCell Label="Telefonnummer " Placeholder=" Tel." HorizontalTextAlignment="Center"/>
+                        
+            <EntryCell Label="Notfallkontakt" Placeholder="Name" HorizontalTextAlignment="Center"/>
+            <EntryCell Label="Telefonnummer " Placeholder=" Tel." HorizontalTextAlignment="Center"/>
+                
+        </TableSection>
+    </TableRoot>
+</TableView>
+    </ContentPage>
+
+
+
+
+
+   <!-- Hints:
+   <TableSection Title="">
+    </TableSection>
+
+   <EntryCell Label="" Placeholder=""/> 
+
+   <SwitchCell Text="" On=""/>
+
+    -->

@@ -1,0 +1,108 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs" Version="7.0.1" />
+    <PackageReference Include="Naxam.BottomTabbedPage" Version="0.2.0.2" />
+    <PackageReference Include="Plugin.UserDialogs" Version="1.0.0" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="MyPage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainContainer.xaml.cs">
+      <DependentUpon>MainContainer.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="TopMenu.xaml.cs">
+      <DependentUpon>TopMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="TabbedMenu.xaml.cs">
+      <DependentUpon>TabbedMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Termin.xaml.cs">
+      <DependentUpon>Termin.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ToDo.xaml.cs">
+      <DependentUpon>ToDo.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UserPage.xaml.cs">
+      <DependentUpon>UserPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="PasswortVergessen.xaml.cs">
+      <DependentUpon>PasswortVergessen.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\Logo.jpg" />
+    <None Remove="Images\taking.png" />
+    <None Remove="Images\todo.png" />
+    <None Remove="Images\date.png" />
+    <None Remove="Images\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MyPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Logo.jpg" />
+    <EmbeddedResource Include="Images\taking.png">
+      <IncludeInPackage>true</IncludeInPackage>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\todo.png">
+      <IncludeInPackage>true</IncludeInPackage>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\date.png">
+      <IncludeInPackage>true</IncludeInPackage>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\contact.png">
+      <IncludeInPackage>true</IncludeInPackage>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="About.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Documentation.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MasterNewsFeed.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MasterNewsFeedDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MainContainer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TopMenu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="newsFeed.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TabbedMenu.xaml">
+      <IncludeInPackage>true</IncludeInPackage>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Images\todo.png">
+      <IncludeInPackage>true</IncludeInPackage>
+    </None>
+  </ItemGroup>
+</Project>

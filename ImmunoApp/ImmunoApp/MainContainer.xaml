@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--MainContainer: holds all elements - Christian Bender-->
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImmunoApp.MainContainer"
+             xmlns:local="using:ImmunoApp"
+             xmlns:pages="ImmunoApp.MainContainer">
+    
+  <MasterDetailPage.Master>
+        <local:TopMenu></local:TopMenu>
+    </MasterDetailPage.Master>
+  <MasterDetailPage.Detail>
+    <NavigationPage>
+      <x:Arguments>
+        <local:TabbedMenu ></local:TabbedMenu>
+      </x:Arguments>
+    </NavigationPage>
+  </MasterDetailPage.Detail>
+</MasterDetailPage>

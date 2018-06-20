@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Home Screen - Christian Bender -->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ImmunoApp.Home"
+             NavigationPage.HasBackButton="false"
+             >
+
+        <!-- Content-->
+    <ContentPage.Content>
+
+        <!-- Layout Orientation-->
+    <StackLayout Orientation="Vertical">
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+        <!-- Button Pictures -->
+        <Button Text="Taking" />
+        <Button Text="Termin" />
+        <Button Text="Kontakt" />
+        <Button Text="To-Do" />
+                
+        <!-- Newsfeed -->       
+     </StackLayout>
+            <Label Text="Platzhalter Newsfeed"/>
+            <Editor MinimumHeightRequest="500" BackgroundColor="Silver" VerticalOptions="FillAndExpand"/>
+            <Label Text="Platzhalter Newsfeed" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

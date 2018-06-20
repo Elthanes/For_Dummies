@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TabbedMenu: tab structure menu on the bottom - Christian Bender-->
+
+<naxam:BottomTabbedPage
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="using:ImmunoApp"
+    xmlns:naxam="clr-namespace:Naxam.Controls.Forms;assembly=Naxam.Controls.Forms"
+    x:Class="ImmunoApp.TabbedMenu"
+    Title="ImmunoApp Uni-Siegen">
+
+    <local:newsFeed ></local:newsFeed>
+    <local:Taking></local:Taking>
+    <local:Documentation></local:Documentation>
+    <local:Termin></local:Termin>
+
+
+    <!-- Ich denke TODO brauchen wir erstmal nicht. Vielleicht packen wir das in die Erweiterungsmöglcihkeiten. -->
+    <!--     <local:ToDo></local:ToDo> -->
+
+</naxam:BottomTabbedPage>
