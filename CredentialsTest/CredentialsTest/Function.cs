@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 using Amazon.Lambda.Core;
 using Amazon.Lambda.APIGatewayEvents;
-using RestSharp;
+using System;
+using System.Net.Http;
 
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
@@ -18,13 +19,19 @@ namespace CredentialsTest
     {
         public APIGatewayProxyResponse FunctionHandler(APIGatewayProxyRequest input, ILambdaContext context)
         {
+
             String res = "";
-            RestClient cli = new RestClient("https://7ss3rsj2og.execute-api.eu-central-1.amazonaws.com/Eh/TokenDecode/");
-            var request = new RestRequest(Method.POST);
-            request.AddHeader("Content-Type", "text/plain");
-            request.AddBody(input.Body);
-            var response = cli.Execute(request);
-            res = response.Content;
+            String to = "";
+            using (HttpClient client = new HttpClient())
+            {
+                String url = "https://7ss3rsj2og.execute-api.eu-central-1.amazonaws.com/Eh/TokenDecode";
+                input.Headers.TryGetValue("x-amzn-Remapped-Authorization", out to);
+                var content = new StringContent(to, System.Text.Encoding.UTF8, "text/plain");
+                using (var response = client.PostAsync(url, content).Result)
+                {
+                    res = response.Content.ReadAsStringAsync().Result;
+                }
+            }
             APIGatewayProxyResponse result = new APIGatewayProxyResponse
             {
                 StatusCode = 200,

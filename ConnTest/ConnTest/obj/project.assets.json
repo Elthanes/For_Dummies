@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Uni\\ConnTest\\ConnTest\\ConnTest.csproj",
+      "projectUniqueName": "E:\\Projektgruppe\\For_Dummies\\ConnTest\\ConnTest\\ConnTest.csproj",
       "projectName": "ConnTest",
-      "projectPath": "E:\\Uni\\ConnTest\\ConnTest\\ConnTest.csproj",
+      "projectPath": "E:\\Projektgruppe\\For_Dummies\\ConnTest\\ConnTest\\ConnTest.csproj",
       "packagesPath": "C:\\Users\\Anwender\\.nuget\\packages\\",
-      "outputPath": "E:\\Uni\\ConnTest\\ConnTest\\obj\\",
+      "outputPath": "E:\\Projektgruppe\\For_Dummies\\ConnTest\\ConnTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
