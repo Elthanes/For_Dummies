@@ -1,0 +1,11 @@
+E:\Uni\ConnTest\ConnTest\bin\Debug\netcoreapp2.0\ConnTest.deps.json
+E:\Uni\ConnTest\ConnTest\bin\Debug\netcoreapp2.0\ConnTest.runtimeconfig.json
+E:\Uni\ConnTest\ConnTest\bin\Debug\netcoreapp2.0\ConnTest.runtimeconfig.dev.json
+E:\Uni\ConnTest\ConnTest\bin\Debug\netcoreapp2.0\ConnTest.dll
+E:\Uni\ConnTest\ConnTest\bin\Debug\netcoreapp2.0\ConnTest.pdb
+E:\Uni\ConnTest\ConnTest\obj\Debug\netcoreapp2.0\ConnTest.csprojAssemblyReference.cache
+E:\Uni\ConnTest\ConnTest\obj\Debug\netcoreapp2.0\ConnTest.csproj.CoreCompileInputs.cache
+E:\Uni\ConnTest\ConnTest\obj\Debug\netcoreapp2.0\ConnTest.AssemblyInfoInputs.cache
+E:\Uni\ConnTest\ConnTest\obj\Debug\netcoreapp2.0\ConnTest.AssemblyInfo.cs
+E:\Uni\ConnTest\ConnTest\obj\Debug\netcoreapp2.0\ConnTest.dll
+E:\Uni\ConnTest\ConnTest\obj\Debug\netcoreapp2.0\ConnTest.pdb
