@@ -19,13 +19,12 @@ namespace CredentialsTest
     {
         public APIGatewayProxyResponse FunctionHandler(APIGatewayProxyRequest input, ILambdaContext context)
         {
-
-            String res = "";
-            String to = "";
+            
+            input.Headers.TryGetValue("Authorization", out String to);
+            String res;
             using (HttpClient client = new HttpClient())
             {
                 String url = "https://7ss3rsj2og.execute-api.eu-central-1.amazonaws.com/Eh/TokenDecode";
-                input.Headers.TryGetValue("x-amzn-Remapped-Authorization", out to);
                 var content = new StringContent(to, System.Text.Encoding.UTF8, "text/plain");
                 using (var response = client.PostAsync(url, content).Result)
                 {
