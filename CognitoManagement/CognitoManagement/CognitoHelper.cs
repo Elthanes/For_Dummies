@@ -123,6 +123,9 @@ public class CognitoHelper
         {
             Password = password
         };
+        var adsadas = new InitiateAuthRequest();
+      
+
 
 
         AuthFlowResponse authResponse = await user.StartWithSrpAuthAsync(authRequest).ConfigureAwait(false);
@@ -135,5 +138,15 @@ public class CognitoHelper
             return null; 
         }
         
+    }
+
+    internal async Task<GetUserResponse> getAttributes(CognitoUser user)
+    {
+
+        AmazonCognitoIdentityProviderClient provider = new AmazonCognitoIdentityProviderClient(new Amazon.Runtime.AnonymousAWSCredentials());
+        GetUserRequest req = new GetUserRequest();
+        req.AccessToken = user.SessionTokens.AccessToken;
+        var res = provider.GetUser(req);
+        return res;
     }
 }

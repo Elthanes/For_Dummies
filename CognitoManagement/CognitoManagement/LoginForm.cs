@@ -87,7 +87,7 @@ namespace CognitoNetSample
             try
             {
                 CognitoHelper helper = new CognitoHelper();
-                var req = new Amazon.CognitoIdentityProvider.Model.UpdateUserAttributesRequest();
+                /*var req = new Amazon.CognitoIdentityProvider.Model.UpdateUserAttributesRequest();
                 req.AccessToken = cognitoUser.SessionTokens.AccessToken;
                 var att1 = new Amazon.CognitoIdentityProvider.Model.AttributeType();
                 var att2 = new Amazon.CognitoIdentityProvider.Model.AttributeType();
@@ -97,9 +97,14 @@ namespace CognitoNetSample
                 att2.Value = textBox2.Text;
                 req.UserAttributes.Add(att1);
                 req.UserAttributes.Add(att2);
-                var result = await helper.UpdateAttributes(req);
-                MessageBox.Show(result.ToString());          
-                
+                var result = await helper.UpdateAttributes(req);*/
+                var bla = helper.getAttributes(cognitoUser).Result.UserAttributes;
+                String ans = "";
+                foreach(var a in bla)
+                {
+                    ans += a.Name + " : " + a.Value + Environment.NewLine;
+                }
+                MessageBox.Show(ans);  
             }
             catch (Exception ex)
             {
